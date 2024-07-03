@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mini Project</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navigasi">
+      <div class="logo">
+        <img
+          src="https://i.pinimg.com/originals/07/ce/42/07ce426d81ac473fd88cde773b4cfdbf.png"
+          alt="Evos esport"
+          width="80"
+          height="50"
+        />
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/profil.html">Our Profile</a></li>
+          <li><a href="/portofolio.html">Portofolio</a></li>
+          <li><a href="#message">Message</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- hero -->
+    <div class="hero">
+      <div class="title">
+        <h1 id="visitor">Hi Iksan, Welcome to My Website</h1>
+        <p>ini adalah Website latihan pertama</p>
+      </div>
+    </div>
+    <!-- end hero -->
+    <!--  quarter -->
+    <div class="querter">
+      <div class="heading">
+        <h1>Our Headquarter</h1>
+      </div>
+      <div class="city">
+        <div class="jakarta">
+          <img
+            src="https://i.pinimg.com/736x/68/a1/e1/68a1e1e50989596385d40846d5992865.jpg"
+            alt="jakarta"
+            height="100"
+            width="100"
+          />
+          <p>Jakarta</p>
+        </div>
+        <div class="bandung">
+          <img
+            src="https://i.pinimg.com/originals/83/53/85/835385c2888f21373ce2b6439a527e98.jpg"
+            alt="bandung"
+            height="100"
+            width="100"
+          />
+          <p>Bandung</p>
+        </div>
+        <div class="surabaya">
+          <img
+            src="https://image.shutterstock.com/image-vector/patung-sura-dan-baya-city-260nw-2279115673.jpg"
+            alt="surabaya"
+            height="100"
+            width="100"
+          />
+          <p>Surabaya</p>
+        </div>
+      </div>
+    </div>
+    <!-- end quarter -->
+    <!-- message -->
+    <div class="message" id="message">
+      <div class="judul">
+        <h1>Message Us</h1>
+      </div>
+      <div class="form">
+        <div class="input">
+          <label for="name">
+            Nama :
+            <input type="text" id="name" placeholder="nama" />
+          </label>
+          <br />
+          <label for="tglLahir">
+            Tanggal lahir :
+            <input type="date" name="tglLahir" id="tglLahir" />
+          </label>
+          <br />
+
+          <p>Pilih Jenis Kelamin:</p>
+           
+          <input
+            type="radio"
+            id="Laki-laki"
+            name="gender"
+            value="laki-laki"
+            class="gender"
+          />
+            <label for="Laki-laki">Laki-laki</label><br />
+           
+          <input
+            type="radio"
+            id="Perempuan"
+            name="gender"
+            class="gender"
+            value="Perempuan"
+          />
+            <label for="Perempuan">Perempuan</label><br />
+           
+
+          <br />
+          <label for="msg"> Pesan : </label>
+          <textarea name="pesan" id="msg" cols="30" rows="4"></textarea>
+          <br />
+          <button class="btn" onclick="triger()">Submit</button>
+        </div>
+        <div class="display">
+          <div class="pesan">
+            <p id="time">Current Time :</p>
+            <p id="tampilNama">Nama :</p>
+            <p id="tampitglLahir">Tanggal lahir :</p>
+            <p id="jenis-Kelamin">Jenis Kelamin :</p>
+            <p id="pesan">Pesan :</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end message -->
+    <!-- footer -->
+    <div class="footer">
+      <h3>Create By Revou</h3>
+    </div>
+    <!-- end footer -->
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

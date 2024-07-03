@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navigasi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 30px;
+  border-bottom: 2px solid black;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+  color: rgb(109, 109, 255);
+}
+.menu ul li a:hover {
+  color: aqua;
+  transition: all ease-in-out 0.3s;
+}
+
+.hero {
+  background-image: url("https://esports.id/img/article/513720191202095527.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.title {
+  padding: 30px 50px;
+}
+
+.title h1 {
+  color: white;
+}
+.title p {
+  color: white;
+}
+
+.querter {
+  padding: 20px 50px;
+  margin: 40px 0;
+}
+
+.city {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.jakarta img {
+  border-radius: 50%;
+}
+
+.jakarta p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.bandung p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.surabaya p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bandung img {
+  border-radius: 50%;
+}
+.surabaya img {
+  border-radius: 50%;
+}
+
+.message {
+  padding: 20px 50px;
+}
+.input {
+  margin-top: 30px;
+}
+
+.input input {
+  margin-left: 50px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-top: 5px;
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.display {
+  /* padding: 70px 300px; */
+  padding: 0 12px;
+
+  height: 170px;
+  width: 420px;
+  border: 1px solid black;
+
+  background-color: rgb(186, 186, 186);
+}
+
+.pesan p {
+  margin-top: 12px;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  padding: 50px 20px;
+  background-color: rgb(74, 74, 74);
+}
+
+.footer h3 {
+  color: white;
+  margin-left: 80%;
+}
+
+.card {
+  margin: 40px 25%;
+  height: 380px;
+  width: 600px;
+  background-color: rgb(130, 215, 255);
+  border-radius: 12px;
+  box-shadow: 5px 10px #888888;
+  padding: 12px;
+}
+.profil img {
+  border-radius: 50%;
+  margin: 15px 40%;
+  border: 6px solid rgb(255, 126, 246);
+  box-shadow: 5px 8px rgb(167, 167, 167);
+}
+
+.bio h2:nth-child(1) {
+  color: rgb(0, 68, 255);
+  font-size: 36px;
+  margin-left: 182px;
+}
+
+.porto {
+  margin: 35px 12px;
+}
+.judul h1 {
+  margin: 45px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .menu ul {
+    display: none;
+    list-style: none;
+  }
+  .city {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form {
+    display: block;
+    gap: 4px;
+  }
+  .display {
+    margin-top: 12px;
+  }
+}
